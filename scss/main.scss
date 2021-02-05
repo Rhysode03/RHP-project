@@ -338,7 +338,7 @@ MEDIA QUERIES
 
   .masthead {
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
-  url(../images/responsive_design_mobile.jpg)center/cover;
+  url(/images/hero/pexels-binyamin-mellish-106399.jpg)center/cover;
   height: 90vh;
   }
 
@@ -356,4 +356,13 @@ MEDIA QUERIES
   .testimonials .fa-chevron-circle-right {
     font-size: 2rem;
   }
+}
+
+.navbar-brand {
+  height: 4rem;
+}
+
+.navbar-brand img {
+  width: 5rem;
+  height: 3rem;
 }

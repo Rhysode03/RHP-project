@@ -11526,8 +11526,8 @@ MEDIA QUERIES
     font-size: 14px;
   }
   .masthead {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/responsive_design_mobile.jpg) center/cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/responsive_design_mobile.jpg) center/cover;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(/images/hero/pexels-binyamin-mellish-106399.jpg) center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/hero/pexels-binyamin-mellish-106399.jpg) center/cover;
     height: 90vh;
   }
   .testimonials .carousel-item {
@@ -11542,5 +11542,14 @@ MEDIA QUERIES
   .testimonials .fa-chevron-circle-right {
     font-size: 2rem;
   }
+}
+
+.navbar-brand {
+  height: 4rem;
+}
+
+.navbar-brand img {
+  width: 5rem;
+  height: 3rem;
 }
 /*# sourceMappingURL=main.css.map */
