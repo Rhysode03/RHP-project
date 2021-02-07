@@ -5,10 +5,10 @@ $font-family-sans-serif: "Roboto 400", sans-serif;
 $enable-responsive-font-sizes: true;
 
 $theme-colors: (
-  "primary": #CAD054,
-  "secondary": #E4DE7C,
-  "success": #ECE8A6,
-  "info": #F0ECB5,
+  "rich": #CAD054,
+  "yellow": #E4DE7C,
+  "light-yellow": #ECE8A6,
+  "": #F0ECB5,
   "other": #C6D8AF,
   "light-green": #F1F1E4,
   "green": #a1c33a,
@@ -160,7 +160,9 @@ header h1 {
   min-height: 80vh;
 }
 
-
+#properties {
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../images/hero/pexels-binyamin-mellish-1396122.jpg)center/cover no-repeat fixed;
+}
 
 .title-underline{
   width: 100px;
