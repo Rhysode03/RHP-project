@@ -8,7 +8,7 @@ $theme-colors: (
   "rich": #CAD054,
   "yellow": #E4DE7C,
   "light-yellow": #ECE8A6,
-  "": #F0ECB5,
+  "light-grey": #C0C0C0,
   "other": #C6D8AF,
   "light-green": #F1F1E4,
   "green": #a1c33a,
@@ -167,6 +167,7 @@ header h1 {
 #properties {
   background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../images/hero/pexels-binyamin-mellish-1396122.jpg)center/cover no-repeat fixed;
 }
+
 
 .title-underline{
   width: 100px;
