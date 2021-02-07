@@ -1,16 +1,18 @@
 @import "functions";
 @import "variables";
 
-$font-family-sans-serif: "Mukta 500", sans-serif;
+$font-family-sans-serif: "Roboto 400", sans-serif;
 $enable-responsive-font-sizes: true;
 
 $theme-colors: (
-  "primary": #7ac3e6,
-  "secondary": #dff1f9,
-  "success": #338d99,
-  "info": #c9c6bf,
-  "purple": #6632b1,
-  "green": #8fd957
+  "primary": #CAD054,
+  "secondary": #E4DE7C,
+  "success": #ECE8A6,
+  "info": #F0ECB5,
+  "other": #C6D8AF,
+  "light-green": #F1F1E4,
+  "green": #a1c33a,
+  "accent": #685369
 );
 
 $link-color: theme-color("green");
@@ -28,11 +30,9 @@ GLOBAL STYLES
 
 body {
   font-family: $font-family-sans-serif;
-  padding-top: 6rem;
 }
 
 a.btn { 
-  border-radius: 30px;
   color: black;
 }
 
@@ -41,7 +41,7 @@ a.btn.hover {
 }
 
 h1,h2,h3 {
-  font-family: "Passion One", cursive;
+  font-family: "Roboto";
 }
 
 h2 {
@@ -55,7 +55,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Mutka", Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 1.618rem;
   font-weight: 700;
 }
@@ -120,35 +120,47 @@ h4 {
 /****************
 SECTION STYLE RULES
 *****************/
-
-.navbar {
-  box-shadow: 0px 3px 3px $gray-800;
-}
-
 .nav-link {
-  color: $gray-900 !important;
+  color: white !important;
 }
+
+//.navbar {
+ // box-shadow: 0px 1px #F2DD6E;
+//}
 
 .nav-link:hover {
-  color: $purple !important;
+  color: #a1c33a !important;
+}
+
+.navbar-brand {
+  height: 4rem;
+}
+
+.navbar-brand img {
+  width: 7rem;
+  height: 3rem;
 }
 
 header h1 {
   text-shadow: 2px 2px black;
   letter-spacing: 2px;
+  padding-top: 13%;
+  padding-bottom: 3%;
 }
 
 .display-2 {
   line-height: 1.0 !important;
 }
 
-.about-picture{
-  background: url(../images/about_background.jpg)center/cover no-repeat fixed;
+.works-picture{
+  background: url(../images/hero/pexels-binyamin-mellish-106399.jpg)center/cover no-repeat fixed;
 }
 
 .height{
   min-height: 80vh;
 }
+
+
 
 .title-underline{
   width: 100px;
@@ -174,9 +186,9 @@ header h1 {
 }
 
 .masthead {
-  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
-  url(../images/hero/pexels-fauxels-3184183.jpg)center/cover;
-  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.3)),
+  url(../images/hero/hero.jpg)center/cover;
+  height: 100vh;
 }
 
 #team $link-color {
@@ -336,12 +348,6 @@ MEDIA QUERIES
     font-size: 14px;
   }
 
-  .masthead {
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
-  url(/images/hero/pexels-binyamin-mellish-106399.jpg)center/cover;
-  height: 90vh;
-  }
-
   .testimonials .carousel-item {
     height: 65vh;
   }
@@ -358,11 +364,3 @@ MEDIA QUERIES
   }
 }
 
-.navbar-brand {
-  height: 4rem;
-}
-
-.navbar-brand img {
-  width: 5rem;
-  height: 3rem;
-}
