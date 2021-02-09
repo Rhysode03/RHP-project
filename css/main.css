@@ -12277,7 +12277,11 @@ header h1 {
 }
 
 #testimonials {
-  height: 70vh !important;
+  height: 75vh !important;
+}
+
+h1 {
+  line-height: .5 !important;
 }
 
 .carousel {
