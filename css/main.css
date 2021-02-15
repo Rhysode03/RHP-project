@@ -12262,10 +12262,6 @@ header h1 {
   padding-bottom: 3%;
 }
 
-.display-2 {
-  line-height: 1.0 !important;
-}
-
 .works {
   list-style-type: none;
   text-decoration: none;
@@ -12278,10 +12274,6 @@ header h1 {
 
 #testimonials {
   height: 75vh !important;
-}
-
-.display-2 {
-  line-height: .5 !important;
 }
 
 .carousel {
